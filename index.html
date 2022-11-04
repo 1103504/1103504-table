@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>1103504</title>
+<style>
+div.absolute {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 25%;
+}
+
+th {
+  height: 40px;
+}
+
+</style>
 </head>
 <body>
-<style>#tds table,#tds tr,#tds td{border:1px solid #000;}</style>
-<table id="tds">
-<tbody>
-<tr>
-<td>First name</td>
-<td>Last name</td>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-</tr>
-<tr>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr>
-<td>3</td>
-<td>3</td>
-</tr>
 
-</tbody>
+<div class="absolute">This div element has position fixed;</div>
+<table>
+
+  <tr style="background-color:gray">
+
+    <th style="color:white">Firstname</th>
+    <th style="color:white">Lastname</th>
+  </tr>
+  <tr style="background-color:yellow">
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr style="background-color:yellow">
+    <td>3</td>
+    <td>3</td>
+  </tr>
+ 
 </table>
 
+
 </body>
-
-
-
 </html>
+
